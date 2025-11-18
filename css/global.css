@@ -6,3 +6,12 @@
     --color-blanco-hueso: #F7F3EB;
     --color--azul-acento: #3fa9f5;
 }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-negro);
+    color: var(--color-blanco-hueso);
+    font-family: 'Inter', sans-serif;
+}
+

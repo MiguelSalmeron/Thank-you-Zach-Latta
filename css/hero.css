@@ -1,5 +1,44 @@
-@import url('global.css');
-@import url('hero.css');
+/* aqui puros herues (hero) como superman, batman, spiderman, etc XDDDD */
+/* que mal chiste*/
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: 
+         radial-gradient(elipse at top, rgba(255, 107, 0, 0.35), transparent 60%),
+         radial-gradient(elipse at bottom, rgba(63, 169, 245, 0.2), transparent 70%),
+         var(--color-negro);
+    padding: 0 20px;
+    overflow: hidden;
+}
 
-/* Hero Section Styles */ 
-/* Su unico trabajp es  impoprtar los otros archivos en orden correcto */
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(---color-blanco-hueso);
+    margin-bottom: 2.5rem;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btn {
+    padding: 12px 28px;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    border-radius:  8px;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    border: 2px solid transparent;
+}
