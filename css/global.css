@@ -4,7 +4,7 @@
     --color-negro: #0C0C0C;
     --color-naranja: #ff6b00;
     --color-blanco-hueso: #F7F3EB;
-    --color--azul-acento: #3fa9f5;
+    --color-azul-acento: #3fa9f5;
 }
 body {
     margin: 0;
@@ -15,3 +15,49 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.exhibit-section {
+    padding: 80px 40px;
+    background-color:  var(--color-negro);
+}
+
+.exhibit-grid {
+    display:  grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.exhibit-card {
+    background-color: var(--color-gris-metalico, #1c1c1c);
+    border: 3px solid transparent;
+    border-radius: 12px;
+    padding: 30px;
+    text-decoration: none;
+    color: var(--color-blanco-hueso);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;   
+}
+
+.exhibit-card:hover {
+    border-color: var(--color-naranja);
+    box-shadow: 0 0 25px rgba(63, 169, 245, 0.7);
+    transform: translateY(-8px);
+}
+
+.exhibit-card h3 {
+    font-family: 'Space grotesk', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.exhibit-card p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .exhibit-section {
+        padding: 60px 20px;
+    }
+}
