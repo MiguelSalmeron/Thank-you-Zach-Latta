@@ -4,47 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank you, Zach Latta - Museum and Fan page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Zach Latta Fan Museum - Midnight Hackathon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>Thank you, Zach Latta</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Zach Latta</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="saytk.html">Thank You Page</a></li>
-            </ul>
-        </nav>
+    <header class="hero-section">
+        <div class="hero-content">
+           <h1>Zach Latta Fan Museum</h1>
+           <p>Powered by Midnight Hackathon</p>
+
+           <div class="cta-buttons">
+           <a href="#exhibiciones" class="btn btn-primary">Ver exibiciones</a>
+           <a href="#mensaje" class="btn btn-secondary">Dejar tu mensaje</a>
+           </div>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Thank You, Zach Latta!</h2>
-            <p>We would like to extend our heartfelt gratitude to Zach Latta for his incredible contributions to the tech community. His dedication to empowering young people through technology and coding has inspired countless individuals around the world.</p>
-            <p>Zach's work with Hack Club has created a supportive environment for students to learn, create, and innovate. His passion for education and technology has made a significant impact, and we are truly thankful for his efforts.</p>
-            <p>Thank you, Zach, for being a beacon of inspiration and for all that you do to make the world a better place through technology!</p>
-        </section>
 
-        <section>
-            <h2>Share Your Thanks</h2>
-            <form action="/submit-thank-you" method="post">
-                <label for="name">Your Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
-
-                <label for="message">Your Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Zach Latta Museum and Fan Page</p>
-    </footer>
 </body>
 </html>
