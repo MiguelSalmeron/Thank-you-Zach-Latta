@@ -1,0 +1,95 @@
+.gallery-section {
+    padding: 80px 40px;
+    background-color: var(--color-negro);
+    border-top:  1px solid #333;
+}
+
+.gallery-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gallery-header h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size:  3rem;
+    color: var(--color-blanco-hueso);
+    margin-bottom: 10px;
+}
+
+.gallery-header p {
+    font-family: 'Inter', sans-serif;
+    color: var(--color-azul-acento);
+    font-size: 1.2rem;
+}
+
+.gallery-collage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    background-color: #222;
+    border: 2px solid #333;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family:  'Space Grotesk', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #555;
+
+    position: relative;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.gallery-item:hover {
+    border-color: var(--color-naranja);
+    color: var(--color-naranja);
+    box-shadow: 0 0 20px rgba(255, 107, 0, 0.3);
+    transform: scale(1.02) rotate(1deg);
+    z-index: 10;
+}
+
+/*asimetria pa q enaje*/
+
+.gallery-item:hover {
+    border-color: var(--color-naranja);
+    color: var(--color-naranja);
+    box-shadow: 0 0 20px rgba(255, 107, 0, 0.3);
+    transform: scale(1.02) rotate(1deg);
+    z-index: 10;
+}
+
+
+.item-1 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background: radial-gradient(circle at center, #333, #1a1a1a);
+}
+
+.item-2 {
+    grid-column: span 2;   
+}
+
+.item-3 {
+    grid-row: span 2;
+}
+
+@media (max-width: 768px) {
+    .gallery-collage {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 250px;
+    }
+
+    .item-1, .item-2, .item-3 {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+}

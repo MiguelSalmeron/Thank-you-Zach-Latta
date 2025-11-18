@@ -1,6 +1,7 @@
 @import url('global.css');
 @import url('hero.css');
 @import url('exhibiciones.css');
+@import url('galeria.css');
 
 /* Hero Section Styles */ 
 /* Su unico trabajp es  impoprtar los otros archivos en orden correcto */
