@@ -1,0 +1,81 @@
+.community-section {
+    padding: 100px 40px;
+    text-align: center;
+    background-color: var(--color-blanco-hueso);
+    color: var(--color-negro);
+}
+
+.community-section h2 {
+    font-size: 'Space Grotesk', sans-serif;
+    font-size: 3.5rem;
+    color: var(--color-naranja);
+    margin-bottom: 10px;
+}
+
+.community-section p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.community-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.message-display {
+    min-height: 150px;
+    background-color: var(--color-negro);
+    border:  3px dashed var(--color-negro);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:  wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.placeholder-message {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--color-azul-acento);
+    padding: 8px 15px;
+    border: 1px solid var(--color-azul-acento);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(63, 169, 245, 03.5);
+}
+.message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.message-form input:focus,
+.message-form textarea {
+    outline: none;
+    border-color: var(--color-naranja);
+    box-shadow: 0 0 15px rgba(255, 107, 255, 0.5);
+}
+
+.btn-submit {
+    background-color: var(--color-negro);
+    color: var(--color-naranja);
+    padding: 15px;
+    font-family:  'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition:  all 0.3s ease;
+}
+.btn-submit:hover {
+    box-shadow: 0 0 20px rgba(255, 107, 0, 0.6);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+    .community-section h2 {
+        font-size: 2.5rem;
+    }
+}
