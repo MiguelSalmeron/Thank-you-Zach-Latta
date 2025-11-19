@@ -6,7 +6,7 @@
 }
 
 .community-section h2 {
-    font-size: 'Space Grotesk', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 3.5rem;
     color: var(--color-naranja);
     margin-bottom: 10px;
@@ -43,7 +43,7 @@
     padding: 8px 15px;
     border: 1px solid var(--color-azul-acento);
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(63, 169, 245, 03.5);
+    box-shadow: 0 0 10px rgba(63, 169, 245, 0.5);
 }
 .message-form {
     display: flex;
