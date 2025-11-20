@@ -26,7 +26,7 @@
 .message-display {
     min-height: 150px;
     background-color: var(--color-negro);
-    border:  3px dashed var(--color-negro);
+    border:  3px dashed var(--color-naranja);
     border-radius: 10px;
     padding: 20px;
     display: flex;
@@ -55,7 +55,7 @@
 .message-form textarea {
     outline: none;
     border-color: var(--color-naranja);
-    box-shadow: 0 0 15px rgba(255, 107, 255, 0.5);
+    box-shadow: 0 0 15px rgba(255, 107, 0, 0.5);
 }
 
 .btn-submit {
