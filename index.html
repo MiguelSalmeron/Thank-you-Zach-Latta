@@ -89,16 +89,18 @@
                 <p>Deja tu mensaje. Cada idea es un candado futurista en nuestro puente</p>
 
                 <div class="message-display">
-                     <div class="placeholder-message">¡Sé el primero en dejar un candado!</div>
-                     <div class="placeholder-message">Los mensajes nuevos brillarán</div>
+                    <div class="placeholder-message">¡Sé el primero en dejar un candado!</div>
+                    <div class="placeholder-message">Los mensajes nuevos brillarán</div>
                 </div>
-             </section> <section class="thanks-section">
-                <div class="thanks-content">
-                    <div class="quote-container">
-                         <h2 class="quote-text">"Porque una idea puede cambiar el mundo..."</h2>
-                         <p class="quote-author">- El equipo de midnight Hackathon</p>
-                    </div>
-
+                
+                <form class="message-form">
+                    <input type="text" id="alias" placeholder="Tu alias (opcional)" maxlength="30">
+                    <textarea id="text-message" rows="3" placeholder="Tu mensaje..." maxlength="150" required></textarea>
+                    <button type="submit" class="btn btn-submit">Dejar mi Candado</button>
+                </form>
+                
+                </div> </section> <section class="thanks-section">
+            
                     <div class="team-messages-grid">
                         <div class="team-card">
                             <p>"Gracias por inspirarnos a construir sin miedo."</p>
@@ -112,7 +114,7 @@
                 </div>
             </section>
     </main>
-    
+
     <section class="hackathon-section">
         <div class="hackathon-content">
             <h2>Midnight Hackathon</h2>
