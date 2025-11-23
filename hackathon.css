@@ -1,0 +1,56 @@
+.hackathon-section {
+    padding:  100px;
+    background-color: var(--color-negro);
+    text-align:  center;
+}
+
+.hackathon-content h2 {
+    font-family:  'Space Grotesk', sans-serif;
+    font-size: 3.5rem;
+    color: var(--color-blanco-hueso);
+}
+
+.hackathon-content p {
+    font-family: 'Inter', sans-serif;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.info-grid {
+    display:  flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 8px;
+    border: 2px solid var(--color-azul-acento);
+    max-width: 300px;
+}
+
+.info-card h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--color-naranja);
+    margin-top: 0;
+}
+
+.footer-minimalist {
+    background-color: var(--color-negro);
+    color: #666;
+    padding: 40px;
+    text-align: center;
+    border-top: 2px solid var(--color-naranja);
+}
+
+.social-icon a {
+    color: var(--color-blanco-hueso);
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    transition: color 0.3s;
+}
+
+.social-icon a:hover { color: var(--color-naranja);}

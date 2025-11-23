@@ -3,6 +3,8 @@
 @import url('exhibiciones.css');
 @import url('galeria.css');
 @import url('comunidad.css');
+@import url('gracias.css');
+@import url('hackathon.css');
 
 /* Hero Section Styles */ 
 /* Su unico trabajp es  impoprtar los otros archivos en orden correcto */
